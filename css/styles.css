@@ -1,0 +1,152 @@
+/* styles.css */
+
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Navigation */
+header {
+    background-color: #222;
+    padding: 10px 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin:0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #ddd;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 150px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #e8491d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #cf3e12;
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about p, .about ul {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    line-height: 1.6;
+}
+
+.about ul {
+    list-style: disc;
+    padding-left: 40px;
+}
+
+.projects .project {
+    max-width: 800px;
+    margin: 0 auto 60px;
+    text-align:center;
+}
+
+.projects .project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.projects .project p {
+    margin-bottom: 10px;
+}
+
+.contact ul {
+    list-style: none;
+    text-align: center;
+}
+
+.contact ul li {
+    margin-bottom: 10px;
+}
+
+.contact ul a {
+    color: #e8491d;
+    text-decoration: none;
+}
+
+.contact ul a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 60px;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+}
