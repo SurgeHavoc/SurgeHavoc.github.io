@@ -10,6 +10,17 @@
 body {
     font-family: Arial, sans-serif;
     color: #333;
+    background: linear-gradient(90 deg,
+        red 0%,
+        orange 16.66%,
+        yellow 33.33%,
+        green 50%,
+        blue 66.66%,
+        indigo 83.33%,
+        violet 100%);
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    color: #333;
 }
 
 /* Navigation */
