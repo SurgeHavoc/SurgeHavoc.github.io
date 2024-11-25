@@ -43,7 +43,11 @@ header {
     background-image: url('../images/hero-bg.jpg');
     background-size: cover;
     background-position: center;
-    height: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-context: center;
+    align-items: center;
     background: linear-gradient(90 deg,
         red 0%,
         orange 16.66%,
