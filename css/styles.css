@@ -40,9 +40,17 @@ header {
 
 /* Hero Section */
 .hero {
-    background-image: url('../images/hero-bg.jpg');
-    background-size: cover;
-    background-position: center;
+    /*background-image: url('../images/hero-bg.jpg');*/
+    */background-size: cover;*/
+    */background-position: center;*/
+    background: linear-gradient(90 deg,
+        red 0%,
+        orange 16.66%,
+        yellow 33.33%,
+        green 50%,
+        blue 66.66%,
+        indigo 83.33%,
+        violet 100%);
     color: #fff;
     text-align: center;
     padding: 150px 20px;
