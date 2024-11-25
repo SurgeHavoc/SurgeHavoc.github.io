@@ -99,6 +99,7 @@ header {
     margin: 0 auto;
     text-align: center;
     padding: 60px 20px;
+    color: #fff;
 }
 
 .skills-list {
@@ -108,6 +109,10 @@ header {
 
 .skills-list li {
     margin-bottom: 10px;
+}
+
+.projects {
+    color: #fff;
 }
 
 .projects .project {
@@ -131,6 +136,7 @@ header {
     margin: 0 auto;
     text-align: center;
     padding: 60px 20px;
+    color: #fff;
 }
 
 .contact-list {
